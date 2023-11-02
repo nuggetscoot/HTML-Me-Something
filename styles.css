@@ -1,1 +1,123 @@
 /* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+  }
+  #mainHeading{
+    font-size: 50px;
+    font-family: Apple Chancery, cursive;
+    color: red;
+  }
+  
+  #testP {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .funParagraph{
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: green;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: American Typewriter, serif;
+    font-weight: 50;
+    padding-top: 40px;
+}
+
+div {
+text-align: center;
+}
+
+p {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: American Typewriter, serif;
+    font-weight: 50;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  
+  h2::before, h2::after {
+    content: "";
+    width: calc(50% - 50px);
+    height: 2px;
+    background: linear-gradient(to right, black 50%, transparent 50%);
+    background-size: 10px 2px;
+    position: absolute;
+    top: 58%;
+  }
+  
+  h2::before {
+    left: 0;
+  }
+  
+  h2::after {
+    right: 0;
+  }
+  
+  p2 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px;
+  }
+  .background-section {
+    padding: 10px;
+    background: url('images/music.png');
+    background-size: contain;
+    background-attachment: fixed;
+
+ 
+  }
+
+
+
+  .h4 {
+    padding-left: 30px;
+    margin-top: 0;
+    margin-bottom: -8px ;
+    text-align: left;
+    font-size: 25px;
+    font-family: Marker Felt, fantasy;
+
+  }
+  
+  
+  
+  .horizontal-list {
+    list-style: none;
+    display: flex;
+    text-align: center;
+  }
+  
+  .horizontal-list li {
+    margin: 90px;
+    margin-left: 50px;
+  }
+  
+  .horizontal-list a {
+    color: #000;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  footer {
+    padding-top: 30px;
+  }
+
